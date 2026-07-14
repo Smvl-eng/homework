@@ -7,58 +7,65 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form>
-      <fieldset class="fieldset1">
-        <h2 class="titleh2">Ваши личные данные</h2>
-        <label>
-          <h3 class="titleh3">Ваше имя</h3>
-          <input
-            type="text"
-            class="input1"
-            placeholder="Имя"
-            name="name"
-            required
-          />
-        </label>
-        <label>
-          <h3 class="titleh3">Ваш возраст</h3>
-          <input
-            type="number"
-            class="input1"
-            placeholder="Возраст"
-            name="age"
-            required
-          />
-        </label>
-        <label>
-          <h3 class="titleh3">Ваш номер телефона</h3>
-          <input
-            type="tel"
-            class="input1"
-            placeholder="Номер телефона"
-            name="phone number"
-            required
-          />
-          <label>
-            <h3 class="titleh3">Ваша почта</h3>
-          <input
-            type="email"
-            class="input1"
-            placeholder="Почта"
-            name="phone number"
-            required
-            />
-        </label>
-        <label>
-        <h3 class="titleh3">Сообщение</h3>
-        <textarea class="message" name="message" id="text" placeholder="Ваше сообщение"></textarea>
-        </label>
-        <label class="bottomtext">
-            <input type="checkbox" class="checkbox" name="checkbox" required>
-           Я принимаю правила
-        </label>
-        <button class="button">Отправить</button>
+    <form class="form">
+      <fieldset class="fieldset">
+        <legend class="title">Ваши личные данные</legend>
+        <label class="label" for="name">Ваше имя</label>
+        <input
+          id="name"
+          class="input"
+          type="text"
+          name="name"
+          placeholder="Имя"
+          required
+        />
+        <label class="label" for="age">Ваш возраст</label>
+        <input
+          id="age"
+          type="number"
+          class="input"
+          name="age"
+          placeholder="Возраст"
+          required
+        />
+        <label class="label" for="number">Ваш номер телефона</label>
+        <input
+          id="number"
+          type="tel"
+          class="input"
+          name="number"
+          placeholder="Номер телефона"
+          required
+        />
+        <label class="label" for="email">Ваша почта</label>
+        <input
+          id="email"
+          type="email"
+          class="input"
+          name="email"
+          placeholder="Почта"
+          required
+        />
       </fieldset>
+      <fieldset class="fieldset1">
+        <label class="label" for="message">Сообщение</label>
+        <textarea
+          name="message"
+          id="message"
+          class="textarea"
+          placeholder="Ваше сообщение"
+        ></textarea>
+        <label class="label" for="checkbox"></label>
+        <input
+          type="checkbox"
+          id="checkbox"
+          class="checkbox"
+          name="checkbox"
+          required
+        />
+        Я принимаю правила
+      </fieldset>
+      <button class="button">Отправить</button>
     </form>
   </body>
 </html>

@@ -1,55 +1,66 @@
 body {
   font-family: sans-serif;
 }
-form {
-  display: inline-block;
-  width: 480px;
+.form {
+  border: 1.2px solid #000;
+  max-width: 340px;
+  min-height: 440px;
+  border-radius: 6px;
+}
+.fieldset {
+  border: none;
+  margin: 0;
+  padding-left: 15px;
+  padding-bottom: 0;
 }
 .fieldset1 {
-  border: 1.3px solid #000;
-  border-radius: 8px;
-  padding-left: 20px;
-}
-.titleh2 {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-.titleh3 {
-  font-size: 120%;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-.input1 {
-  border-width: 1.5px;
-  font-size: 110%;
+  border: none;
+  margin: 0;
+  padding-top: 5px;
   padding-left: 15px;
-  border-radius: 8px;
-  width: 330px;
-  height: 30px;
+  padding-bottom: 0;
 }
-.message {
+.title {
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+.label {
   display: block;
+  padding-top: 7px;
+  padding-bottom: 3px;
+}
+.input {
+  outline: none;
+  font-size: small;
+  margin-top: 3px;
+  padding-left: 8px;
+  border: 1.2px solid #000;
+  border-radius: 5px;
+  width: 230px;
+  height: 24px;
+}
+.textarea {
+  outline: none;
+  font-size: larger;
+  padding-left: 8px;
+  border: 1.2px solid #000;
+  border-radius: 5px;
+  width: 230px;
+  max-height: 230px;
+  min-height: 45px;
   resize: vertical;
-  border-width: 1.5px;
-  font-size: 140%;
-  padding-left: 15px;
-  border-radius: 8px;
-  width: 330px;
-  height: 50px;
 }
 .checkbox {
-  margin-top: 15px;
-}
-.bottomtext {
-  display: block;
+  margin: 0;
 }
 .button {
   cursor: pointer;
-  font-size: 14px;
-  margin-top: 8px;
-  margin-bottom: 10px;
-  width: 100px;
-  height: 28px;
-  border: 0px solid #000;
+  border: none;
+  margin-left: 15px;
+  margin-top: 7px;
+  margin-bottom: 20px;
   border-radius: 5px;
+  width: 100px;
+  height: 24px;
 }
