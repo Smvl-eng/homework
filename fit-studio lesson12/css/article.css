@@ -1,0 +1,141 @@
+html {
+  font-family: "Ubuntu", sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.article {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.article-title-medium {
+  font-size: 36px;
+  margin-top: 80px;
+}
+
+.article-text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #535755;
+  margin-bottom: 20px;
+}
+.article-text-mb {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #535755;
+  margin-bottom: 80px;
+}
+.article-decor-wrapper {
+  margin-bottom: 40px;
+  position: relative;
+}
+.article-decor-wrapper-1::before {
+  left: 0;
+  top: 100px;
+}
+.article-decor-wrapper-2::before {
+  right: 0;
+  bottom: 136px;
+}
+.article-text2 {
+  max-width: 744px;
+}
+.article-list {
+  margin: 0;
+  padding: 0 16px;
+}
+.article-item {
+  margin-bottom: 12px;
+}
+
+.article-video {
+  margin-bottom: 40px;
+}
+.bottom-img {
+  margin-bottom: 40px;
+}
+.article-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  background-color: #3596ed;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.article-button:hover {
+  background-color: #2980cb;
+}
+::marker {
+  font-size: 22px;
+  color: #3596ed;
+}
+
+@media (width <= 768px) {
+  .article-decor-wrapper::before {
+    display: none;
+  }
+
+  .article-text-mb {
+    margin-bottom: 60px;
+  }
+
+  .article-title-medium {
+    font-size: 32px;
+  }
+}
+
+@media (width <= 576px) {
+  .article {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
+  .article-text-mb {
+    margin-bottom: 40px;
+  }
+
+  .article-title-medium {
+    font-size: 28px;
+  }
+
+  .article-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .article-button img {
+    width: 18px;
+    height: 18px;
+  }
+}
