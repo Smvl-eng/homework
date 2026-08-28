@@ -1,0 +1,44 @@
+.page {
+  font-family: var(--font-family), var(--second-family);
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+.page__body {
+  min-width: 375px;
+}
+
+.container {
+  width: min(var(--container-width), 100%);
+  margin-inline: auto;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid var(--third-color);
+  outline-offset: 2px;
+}
+
+.main__title {
+  font-family: "ReadexPro", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 125%;
+  text-align: center;
+  color: #000;
+}
+
+@media (width > 576px) {
+  .section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (width <= 576px) {
+  .section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
