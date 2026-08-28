@@ -1,0 +1,181 @@
+.categories {
+  margin-bottom: 300px;
+}
+
+.categories__info {
+  max-width: 1151px;
+  margin: 0 auto;
+  height: auto;
+  margin-bottom: 56px;
+}
+
+.categories__title {
+  padding-top: 47px;
+  margin-bottom: 9px;
+}
+
+.categories__description {
+  max-width: 628px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "ReadexPro", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+}
+
+.categories__grid-content {
+  display: grid;
+  grid-template-columns: 639px 1fr 1fr;
+  grid-template-rows: 480px 1fr;
+  column-gap: 18px;
+  row-gap: 72px;
+}
+
+.categories__item {
+  overflow: hidden;
+  box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+}
+
+.item-laptop {
+  min-width: 639px;
+  min-height: 472px;
+  padding-inline: 42px;
+  overflow: hidden;
+}
+
+.article__content {
+  max-width: 639px;
+  min-height: 472px;
+}
+
+.article__info {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.article__text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128%;
+  text-align: right;
+  color: #000;
+}
+
+.article__title {
+  font-family: "ReadexPro", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: right;
+  max-width: 250px;
+  color: #000;
+}
+
+.item-watch {
+  grid-column: 1;
+  grid-row: 2;
+  min-width: 639px;
+  max-height: 270px;
+}
+
+.article__content-watch {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 42px;
+}
+
+.article__img-watch {
+  display: block;
+}
+
+.article__info-watch {
+  max-height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: center;
+}
+
+.article__text-watch {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128%;
+  text-align: right;
+  color: #000;
+}
+
+.article__title-watch {
+  font-family: "ReadexPro", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: right;
+  color: #000;
+}
+
+.item-phones {
+  min-width: 312px;
+  min-height: 792px;
+}
+
+.article__content-phones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.article__info-phones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 42px;
+}
+
+.article__text-phones {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128%;
+  text-align: center;
+  color: #000;
+}
+
+.article__title-phones {
+  font-family: "ReadexPro", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+  max-width: 250px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.item-tablets {
+  min-width: 312px;
+  min-height: 792px;
+}
+
+.article__content-tablets {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.article__info-tablets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 42px;
+}
