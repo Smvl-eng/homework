@@ -1,0 +1,89 @@
+.sign-up {
+  margin-bottom: 19px;
+}
+
+.sign-up__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  /* 935px to 760px (1000px to 768px) */
+  max-width: clamp(46.875rem, 8.599rem + 79.74vw, 58.438rem);
+  height: 450px;
+  border-radius: 16px;
+  background: #dce5e2;
+}
+
+.sign-up__title {
+  font-family: "ReadexPro", sans-serif;
+  font-weight: 400;
+  /* 42px to 34px (vp 576px to 375px) */
+  font-size: clamp(2.125rem, 1.192rem + 3.98vw, 2.625rem);
+  line-height: 125%;
+  text-align: center;
+  color: #000;
+  margin-top: 47px;
+  margin-bottom: 9px;
+}
+
+.sign-up__desc {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  /* 16px to 12px (vp 768px 375px) */
+  font-size: clamp(0.75rem, 0.511rem + 1.02vw, 1rem);
+  line-height: 120%;
+  text-align: center;
+  color: #000;
+  padding-inline: 15px;
+  margin-bottom: 14px;
+}
+
+.sign-up__img-wrapper {
+  width: 233px;
+  height: 200px;
+  margin-bottom: 14px;
+}
+
+.sign-up__email-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* 400px to 300px (vp 576px to 375px) */
+  max-width: clamp(18.75rem, 7.09rem + 49.75vw, 25rem);
+  overflow: hidden;
+}
+
+.sign-up__input {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: left;
+  color: #000;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 54px 0 0 54px;
+  padding-block: 17px;
+  padding-left: 17px;
+  width: 285px;
+  height: 50px;
+  background: transparent;
+}
+
+.sign-up__input:focus-visible {
+  outline: none;
+}
+
+.sign-up__button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.75rem, 0.517rem + 1vw, 0.875rem);
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  border-radius: 0 200px 200px 0;
+  width: 115px;
+  height: 50px;
+}

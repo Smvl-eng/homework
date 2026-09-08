@@ -31,8 +31,8 @@ input:focus-visible {
 
 @media (width > 576px) {
   .section {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 

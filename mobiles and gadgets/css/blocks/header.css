@@ -32,6 +32,47 @@
   color: #000;
 }
 
+.menu__dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.menu__dropdown-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: white;
+  min-width: 97px;
+  box-shadow: 0 1px 10px #00000078;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0px);
+  pointer-events: none;
+  border-radius: 0.5rem;
+  padding-block: 5px;
+  padding-left: 5px;
+  gap: 10px;
+  z-index: 2;
+  transition:
+    top 0.3s,
+    opacity 0.3s,
+    visibility 0.3s;
+}
+
+/* модификатор открытия для <div class="menu__dropdown-content"> */
+.menu__dropdown-content--open {
+  top: 120%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu__dropdown-link {
+  color: #000;
+  font-size: 14px;
+}
+
 .controls__wrapper {
   display: flex;
   gap: 21px;

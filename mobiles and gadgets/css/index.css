@@ -8,3 +8,9 @@
 @import "./blocks/header.css";
 @import "./blocks/hero.css";
 @import "./blocks/categories.css";
+@import "./blocks/product.css";
+@import "./blocks/best-product.css";
+@import "./blocks/ideas.css";
+@import "./blocks/search.css";
+@import "./blocks/sign-up.css";
+@import "./blocks/footer.css";
