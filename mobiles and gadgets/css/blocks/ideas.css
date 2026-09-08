@@ -1,0 +1,112 @@
+.ideas {
+  margin-bottom: calc(51px + 24px);
+}
+
+.ideas__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 56px;
+}
+
+.ideas__title {
+  font-family: "ReadexPro", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 125%;
+  text-align: center;
+  color: #000;
+}
+
+.ideas__desc {
+  font-family: "ReadexPro", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 129%;
+  text-align: center;
+  color: #000;
+}
+
+.ideas__content {
+  display: flex;
+  flex-direction: row;
+  /* 35px to 25px (vp 1000px to 768px) */
+  gap: clamp(1.563rem, 1.188rem + 1.6vw, 2.188rem);
+  /* 74px to 34px (1000px to 375px) */
+  margin-bottom: clamp(2.125rem, 0.625rem + 6.4vw, 4.625rem);
+}
+
+@media (width <= 1000px) {
+  .ideas__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.ideas__img-wrapper {
+  /* 620px to 420px (vp 1330px to 768px) */
+  width: clamp(26.25rem, 9.168rem + 35.59vw, 38.75rem);
+  /* 420px to 335px (vp 1330px to 768px)  */
+  height: clamp(20.938rem, 4.839rem + 25.76vw, 26.25rem);
+}
+
+@media (width <= 1000px) {
+  .ideas__img-wrapper {
+    /* 500px to 350px (vp 1000px to 375px) */
+    width: clamp(21.875rem, 16.25rem + 24vw, 31.25rem);
+    /* 335px to 200px (vp 1000px to 375px) */
+    height: clamp(12.5rem, 7.438rem + 21.6vw, 20.938rem);
+  }
+}
+
+.ideas__content-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+
+.ideas__content-list {
+  display: flex;
+  flex-direction: column;
+  /* 23px to 19px (vp 1000px to 375px) */
+  gap: clamp(1.188rem, 1.038rem + 0.64vw, 1.438rem);
+  /* 500px to 300px (vp 1000px to 375px) */
+  width: clamp(18.75rem, 11.25rem + 32vw, 31.25rem);
+}
+
+.ideas__content-item {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  /* 24px to 18px (768px to 375px) */
+  font-size: clamp(1.125rem, 0.767rem + 1.53vw, 1.5rem);
+  line-height: 125%;
+  color: #000;
+}
+
+.ideas__content-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.ideas__button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  /* 24px to 18px (vp 1000px to 375px) */
+  font-size: clamp(1.125rem, 0.9rem + 0.96vw, 1.5rem);
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #000;
+  align-items: center;
+}
+
+.ideas__button-svg {
+  /* 30px to 20px (vp 1000px to 375px) */
+  width: clamp(1.25rem, 0.875rem + 1.6vw, 1.875rem);
+  /* 28px to 20px (vp 1000px to 375px) */
+  height: clamp(1.25rem, 0.95rem + 1.28vw, 1.75rem);
+}
